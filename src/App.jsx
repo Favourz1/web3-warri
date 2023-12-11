@@ -2,11 +2,12 @@ import logo from "./assets/images/logo.svg"
 import heroImg2 from "./assets/images/hero-img-build.svg"
 import feature1Img from "./assets/images/feature-1.png"
 import feature2Img from "./assets/images/feature-2.png"
+import { EventsTimeline } from "Components"
 function App() {
 
   return (
     <>
-      <header className="fixed w-full px-8">
+      <header className="fixed w-full px-8 z-[99999]">
         <nav className="bg-white border-gray-200 py-2.5 dark:bg-gray-900">
           <div className="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
             <a href="#" className="flex items-center">
@@ -34,7 +35,7 @@ function App() {
                   <a href="#" className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">About Us</a>
                 </li>
                 <li>
-                  <a href="#" className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Our Community</a>
+                  <a href="#" className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Events</a>
                 </li>
                 <li>
                   <a href="#" className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Support Us</a>
@@ -51,7 +52,7 @@ function App() {
         </nav>
       </header>
       <main className="container mx-auto bg-white dark:bg-gray-900">
-        <section className="container mx-auto px-8 bg-white dark:bg-gray-900">
+        <section className="container mx-auto px-8 bg-white dark:bg-gray-900 min-h-screen">
           <div className="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
             <div className="mr-auto place-self-center lg:col-span-7">
               <h1 className="max-w-2xl mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white">Empowering Builders of the Decentralized Future.</h1>
@@ -75,6 +76,7 @@ function App() {
 
         <section className="container mx-auto px-8 bg-white dark:bg-gray-900">
           <div className="max-w-screen-xl px-4 pb-8 mx-auto lg:pb-16">
+            <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white text-center mb-5">Our Partners</h2>
             <div className="grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 sm:grid-cols-3 lg:grid-cols-6 dark:text-gray-400">
               <a href="#" className="flex items-center lg:justify-center">
                 <svg className="h-9 hover:text-gray-900 dark:hover:text-white" viewBox="0 0 125 35" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -132,6 +134,12 @@ function App() {
                 </svg>
               </a>
             </div>
+          </div>
+        </section>
+        <section className="container mx-auto px-8 bg-white dark:bg-gray-900">
+          <div className="max-w-screen-xl px-4 pb-8 mx-auto lg:pb-16">
+            <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white text-center mb-5">Our Partners</h2>
+            <EventsTimeline />
           </div>
         </section>
 
@@ -571,8 +579,7 @@ function App() {
               <img src={logo} className="h-6 mr-3 sm:h-9" alt="Web3 Warri Logo" />
               Web3 Warri
             </a>
-            <span className="block text-sm text-center text-gray-500 dark:text-gray-400">© {new Date().getFullYear()} Landwind™. All Rights Reserved. Built with <a href="https://flowbite.com" className="text-purple-600 hover:underline dark:text-purple-500">Flowbite</a> and <a href="https://tailwindcss.com" className="text-purple-600 hover:underline dark:text-purple-500">Tailwind CSS</a>. Distributed by <a href="https://themewagon.com/" className="text-purple-600 hover:underline dark:text-purple-500">ThemeWagon</a>
-            </span>
+            <span className="block text-sm text-center text-gray-500 dark:text-gray-400">© {new Date().getFullYear()} Web3 Warri™. All Rights Reserved.</span>
             <ul className="flex justify-center mt-5 space-x-5">
               <li>
                 <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400">

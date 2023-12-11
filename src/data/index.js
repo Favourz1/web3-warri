@@ -1,0 +1,1 @@
+export { default as eventsData } from "./eventsData"

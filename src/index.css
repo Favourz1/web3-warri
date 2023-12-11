@@ -64,6 +64,21 @@ button:focus-visible {
 .st0{fill:#0acf83}.st1{fill:#a259ff}.st2{fill:#f24e1e}.st3{fill:#ff7262}.st4{fill:#1abcfe}
 
 
+/* .laVdxH::before{
+  background-color: #9333EA !important;
+} */
+
+.timeline-item-title, .rc-card-title, .show-more{
+  color: #9333EA !important;
+}
+
+[data-testid="tree-leaf"]::before, [data-testid="tree-leaf"]::after, .using-icon{
+  color: #9333EA !important;
+    background-color: #9333EA !important;
+
+}
+
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

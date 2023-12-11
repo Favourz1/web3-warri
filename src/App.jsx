@@ -3,6 +3,9 @@ import heroImg2 from "./assets/images/hero-img-build.svg"
 import subGraphMetupImg from "./assets/images/subgraph_meetup.jpg"
 import hackathonImg1 from "./assets/images/hackathon-1.jpg"
 import web3WarriTeam from "./assets/images/web3-warri-team.webp"
+import charlesFreebornImg from "./assets/images/charlesfreeborn.jfif"
+import marthaFreebornImg from "./assets/images/martha_freeborn.webp"
+import favourOkohImg from "./assets/images/favour-okoh.jpg"
 import { EventsTimeline } from "Components"
 function App() {
 
@@ -235,6 +238,165 @@ function App() {
                 </div>
               </figcaption>
             </figure>
+          </div>
+        </section>
+
+        <section className="container mx-auto px-8 py-6 bg-white dark:bg-gray-900">
+          <div className="flex items-center justify-center">
+            <div className="flex flex-col">
+
+              <div className="flex flex-col mt-8">
+                {/* Meet the Team */}
+                <div className="container max-w-7xl px-4">
+                  {/* Section Header */}
+                  <div className="flex flex-wrap justify-center text-center mb-24">
+                    <div className="w-full lg:w-6/12 px-4">
+                      {/* Header */}
+                      <h1 className="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white text-center  mb-8">
+                        Meet the Team
+                      </h1>
+
+                      {/* Description */}
+                      <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400">
+                        With lots of  years of combined experience, we&apos;ve got a well-seasoned team at the helm.
+                      </p>
+                    </div>
+                  </div>
+
+                  {/* Team Members */}
+                  <div className="flex flex-wrap items-center justify-center gap-10">
+                    {/* Member #1 */}
+                    <div className="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
+                      <div className="flex flex-col">
+                        {/* Avatar */}
+                        <a href="#" className="mx-auto">
+                          <img className="h-[300px] object-cover rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
+                            src={charlesFreebornImg} />
+                        </a>
+
+                        {/* Details */}
+                        <div className="text-center mt-6">
+                          {/* Name */}
+                          <h1 className="font-bold text-gray-500 sm:text-lg dark:text-white">
+                            Charles Freeborn
+                          </h1>
+
+                          {/* Title */}
+                          <div className="font-light text-gray-500 text-sm dark:text-gray-400">
+                            Co-Founder & Community Manager
+                          </div>
+
+                          {/* Social Icons */}
+                          <div className="flex items-center justify-center
+                                transition-opacity duration-300">
+                            {/* Linkedin */}
+                            <a href="https://www.linkedin.com/in/charleseteure/" className="flex rounded-full h-10 w-10 opacity-50 hover:opacity-100">
+                              <i className="mdi mdi-linkedin text-indigo-500 mx-auto mt-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#0077b5" viewBox="0 0 256 256"><path d="M216,24H40A16,16,0,0,0,24,40V216a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V40A16,16,0,0,0,216,24Zm0,192H40V40H216V216ZM96,112v64a8,8,0,0,1-16,0V112a8,8,0,0,1,16,0Zm88,28v36a8,8,0,0,1-16,0V140a20,20,0,0,0-40,0v36a8,8,0,0,1-16,0V112a8,8,0,0,1,15.79-1.78A36,36,0,0,1,184,140ZM100,84A12,12,0,1,1,88,72,12,12,0,0,1,100,84Z"></path></svg>
+                              </i>
+                            </a>
+
+                            {/* Twitter */}
+                            <a href="https://twitter.com/charliecodes" className="flex rounded-full h-10 w-10 opacity-50 hover:opacity-100">
+                              <i className="mdi mdi-twitter text-blue-300 mx-auto mt-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#1da1f2" viewBox="0 0 256 256"><path d="M247.39,68.94A8,8,0,0,0,240,64H209.57A48.66,48.66,0,0,0,168.1,40a46.91,46.91,0,0,0-33.75,13.7A47.9,47.9,0,0,0,120,88v6.09C79.74,83.47,46.81,50.72,46.46,50.37a8,8,0,0,0-13.65,4.92c-4.31,47.79,9.57,79.77,22,98.18a110.93,110.93,0,0,0,21.88,24.2c-15.23,17.53-39.21,26.74-39.47,26.84a8,8,0,0,0-3.85,11.93c.75,1.12,3.75,5.05,11.08,8.72C53.51,229.7,65.48,232,80,232c70.67,0,129.72-54.42,135.75-124.44l29.91-29.9A8,8,0,0,0,247.39,68.94Zm-45,29.41a8,8,0,0,0-2.32,5.14C196,166.58,143.28,216,80,216c-10.56,0-18-1.4-23.22-3.08,11.51-6.25,27.56-17,37.88-32.48A8,8,0,0,0,92,169.08c-.47-.27-43.91-26.34-44-96,16,13,45.25,33.17,78.67,38.79A8,8,0,0,0,136,104V88a32,32,0,0,1,9.6-22.92A30.94,30.94,0,0,1,167.9,56c12.66.16,24.49,7.88,29.44,19.21A8,8,0,0,0,204.67,80h16Z"></path></svg>
+                              </i>
+                            </a>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Member #2 */}
+                    <div className="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
+                      <div className="flex flex-col">
+                        {/* Avatar */}
+                        <a href="#" className="mx-auto">
+                          <img className="h-[300px] object-cover rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
+                            src={marthaFreebornImg} />
+                        </a>
+
+                        {/* Details */}
+                        <div className="text-center mt-6">
+                          {/* Name */}
+                          <h1 className="font-bold text-gray-500 sm:text-lg dark:text-white">
+                            Martha Freeborn
+                          </h1>
+
+                          {/* Title */}
+                          <div className="font-light text-gray-500 text-sm dark:text-gray-400">
+                            Co-Founder, Women Tech Makers Amb.
+                          </div>
+
+                          {/* Social Icons */}
+                          <div className="flex items-center justify-center
+                                transition-opacity duration-300">
+                            {/* Linkedin */}
+                            <a href=" https://www.linkedin.com/in/martha-omoerherhe-freeborn-323643134/" className="flex rounded-full h-10 w-10 opacity-50 hover:opacity-100">
+                              <i className="mdi mdi-linkedin text-indigo-700 mx-auto mt-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#0077b5" viewBox="0 0 256 256"><path d="M216,24H40A16,16,0,0,0,24,40V216a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V40A16,16,0,0,0,216,24Zm0,192H40V40H216V216ZM96,112v64a8,8,0,0,1-16,0V112a8,8,0,0,1,16,0Zm88,28v36a8,8,0,0,1-16,0V140a20,20,0,0,0-40,0v36a8,8,0,0,1-16,0V112a8,8,0,0,1,15.79-1.78A36,36,0,0,1,184,140ZM100,84A12,12,0,1,1,88,72,12,12,0,0,1,100,84Z"></path></svg>
+                              </i>
+                            </a>
+
+                            {/* Twitter */}
+                            <a href="https://twitter.com/FreebornMartha" className="flex rounded-full h-10 w-10 opacity-50 hover:opacity-100">
+                              <i className="mdi mdi-twitter text-blue-400 mx-auto mt-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#1da1f2" viewBox="0 0 256 256"><path d="M247.39,68.94A8,8,0,0,0,240,64H209.57A48.66,48.66,0,0,0,168.1,40a46.91,46.91,0,0,0-33.75,13.7A47.9,47.9,0,0,0,120,88v6.09C79.74,83.47,46.81,50.72,46.46,50.37a8,8,0,0,0-13.65,4.92c-4.31,47.79,9.57,79.77,22,98.18a110.93,110.93,0,0,0,21.88,24.2c-15.23,17.53-39.21,26.74-39.47,26.84a8,8,0,0,0-3.85,11.93c.75,1.12,3.75,5.05,11.08,8.72C53.51,229.7,65.48,232,80,232c70.67,0,129.72-54.42,135.75-124.44l29.91-29.9A8,8,0,0,0,247.39,68.94Zm-45,29.41a8,8,0,0,0-2.32,5.14C196,166.58,143.28,216,80,216c-10.56,0-18-1.4-23.22-3.08,11.51-6.25,27.56-17,37.88-32.48A8,8,0,0,0,92,169.08c-.47-.27-43.91-26.34-44-96,16,13,45.25,33.17,78.67,38.79A8,8,0,0,0,136,104V88a32,32,0,0,1,9.6-22.92A30.94,30.94,0,0,1,167.9,56c12.66.16,24.49,7.88,29.44,19.21A8,8,0,0,0,204.67,80h16Z"></path></svg>
+                              </i>
+                            </a>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Member #3 */}
+                    <div className="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
+                      <div className="flex flex-col">
+                        {/* Avatar */}
+                        <a href="#" className="mx-auto">
+                          <img className="h-[300px] object-cover rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
+                            src={favourOkohImg} />
+                        </a>
+
+                        {/* Details */}
+                        <div className="text-center mt-6">
+                          {/* Name */}
+                          <h1 className="font-bold text-gray-500 sm:text-lg dark:text-white">
+                            Favour Okoh
+                          </h1>
+
+                          {/* Title */}
+                          <div className="font-light text-gray-500 text-sm dark:text-gray-400">
+                            Frontend Engineer & Program Manager
+                          </div>
+
+                          {/* Social Icons */}
+                          <div className="flex items-center justify-center
+                                transition-opacity duration-300">
+                            {/* Linkedin */}
+                            <a href="https://www.linkedin.com/in/favour-okoh/" className="flex rounded-full h-10 w-10 opacity-50 hover:opacity-100">
+                              <i className="mdi mdi-linkedin text-indigo-700 mx-auto mt-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#0077b5" viewBox="0 0 256 256"><path d="M216,24H40A16,16,0,0,0,24,40V216a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V40A16,16,0,0,0,216,24Zm0,192H40V40H216V216ZM96,112v64a8,8,0,0,1-16,0V112a8,8,0,0,1,16,0Zm88,28v36a8,8,0,0,1-16,0V140a20,20,0,0,0-40,0v36a8,8,0,0,1-16,0V112a8,8,0,0,1,15.79-1.78A36,36,0,0,1,184,140ZM100,84A12,12,0,1,1,88,72,12,12,0,0,1,100,84Z"></path></svg>
+                              </i>
+                            </a>
+
+                            {/* Twitter */}
+                            <a href="https://twitter.com/_favourz" className="flex rounded-full h-10 w-10 opacity-50 hover:opacity-100">
+                              <i className="mdi mdi-twitter text-blue-400 mx-auto mt-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#1da1f2" viewBox="0 0 256 256"><path d="M247.39,68.94A8,8,0,0,0,240,64H209.57A48.66,48.66,0,0,0,168.1,40a46.91,46.91,0,0,0-33.75,13.7A47.9,47.9,0,0,0,120,88v6.09C79.74,83.47,46.81,50.72,46.46,50.37a8,8,0,0,0-13.65,4.92c-4.31,47.79,9.57,79.77,22,98.18a110.93,110.93,0,0,0,21.88,24.2c-15.23,17.53-39.21,26.74-39.47,26.84a8,8,0,0,0-3.85,11.93c.75,1.12,3.75,5.05,11.08,8.72C53.51,229.7,65.48,232,80,232c70.67,0,129.72-54.42,135.75-124.44l29.91-29.9A8,8,0,0,0,247.39,68.94Zm-45,29.41a8,8,0,0,0-2.32,5.14C196,166.58,143.28,216,80,216c-10.56,0-18-1.4-23.22-3.08,11.51-6.25,27.56-17,37.88-32.48A8,8,0,0,0,92,169.08c-.47-.27-43.91-26.34-44-96,16,13,45.25,33.17,78.67,38.79A8,8,0,0,0,136,104V88a32,32,0,0,1,9.6-22.92A30.94,30.94,0,0,1,167.9,56c12.66.16,24.49,7.88,29.44,19.21A8,8,0,0,0,204.67,80h16Z"></path></svg>
+                              </i>
+                            </a>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
 

@@ -10,7 +10,7 @@ const eventsData = [
     media: {
       name: "dunkirk beach",
       source: {
-        url: "../assets/images/subgraph_meetup.jpg"
+        url: "/subgraph_meetup.jpg"
       },
       type: "IMAGE"
     }
@@ -24,7 +24,7 @@ const eventsData = [
     media: {
       name: "dunkirk beach",
       source: {
-        url: "../assets/images/subgraph_meetup.jpg"
+        url: "/subgraph_meetup.jpg"
       },
       type: "IMAGE"
     }
@@ -39,7 +39,7 @@ const eventsData = [
     media: {
       name: "dunkirk beach",
       source: {
-        url: "../assets/images/subgraph_meetup.jpg"
+        url: "/subgraph_meetup.jpg"
       },
       type: "IMAGE"
     }
@@ -53,7 +53,7 @@ const eventsData = [
     media: {
       name: "dunkirk beach",
       source: {
-        url: "../assets/images/subgraph_meetup.jpg"
+        url: "/subgraph_meetup.jpg"
       },
       type: "IMAGE"
     }
@@ -69,7 +69,7 @@ const eventsData = [
     media: {
       name: "dunkirk beach",
       source: {
-        url: "../assets/images/subgraph_meetup.jpg"
+        url: "/subgraph_meetup.jpg"
       },
       type: "IMAGE"
     }
@@ -84,7 +84,7 @@ const eventsData = [
     media: {
       name: "dunkirk beach",
       source: {
-        url: "../assets/images/subgraph_meetup.jpg"
+        url: "/subgraph_meetup.jpg"
       },
       type: "IMAGE"
     }
@@ -100,7 +100,7 @@ const eventsData = [
     media: {
       name: "dunkirk beach",
       source: {
-        url: "../assets/images/subgraph_meetup.jpg"
+        url: "/subgraph_meetup.jpg"
       },
       type: "IMAGE"
     }
@@ -116,7 +116,7 @@ const eventsData = [
     media: {
       name: "dunkirk beach",
       source: {
-        url: "../assets/images/subgraph_meetup.jpg"
+        url: "/subgraph_meetup.jpg"
       },
       type: "IMAGE"
     }
@@ -132,7 +132,7 @@ const eventsData = [
     media: {
       name: "dunkirk beach",
       source: {
-        url: "../assets/images/subgraph_meetup.jpg"
+        url: "/subgraph_meetup.jpg"
       },
       type: "IMAGE"
     }
@@ -147,7 +147,7 @@ const eventsData = [
     media: {
       name: "dunkirk beach",
       source: {
-        url: "../assets/images/subgraph_meetup.jpg"
+        url: "/subgraph_meetup.jpg"
       },
       type: "IMAGE"
     }
@@ -162,7 +162,7 @@ const eventsData = [
     media: {
       name: "dunkirk beach",
       source: {
-        url: "../assets/images/subgraph_meetup.jpg"
+        url: "/subgraph_meetup.jpg"
       },
       type: "IMAGE"
     }
@@ -177,7 +177,7 @@ const eventsData = [
     media: {
       name: "dunkirk beach",
       source: {
-        url: "../assets/images/subgraph_meetup.jpg"
+        url: "/subgraph_meetup.jpg"
       },
       type: "IMAGE"
     }

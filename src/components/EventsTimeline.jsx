@@ -1,5 +1,6 @@
 import { Chrono } from "react-chrono";
 import { eventsData } from "Data";
+import logo from "Assets/images/logo.svg"
 
 
 const EventsTimeline = () => {
@@ -15,26 +16,26 @@ const EventsTimeline = () => {
                 hideControls={true}
                 theme={{
                     primary: '#9333EA',
-                    secondary: 'blue',
+                    secondary: 'white',
                     cardBgColor: 'white',
                     titleColor: 'black',
                     titleColorActive: '#9333EA',
                 }}
                 classNames={{
-                    card: 'my-events-card',
-                    cardMedia: 'my-events-card-media',
-                    cardSubTitle: 'my-events-card-subtitle',
-                    cardText: 'my-events-card-text',
-                    cardTitle: 'my-events-card-title',
-                    controls: 'my-events-controls',
-                    title: 'my-events-title',
+                    card: 'custom-chrono-events-card',
+                    cardMedia: 'custom-chrono-events-card-media',
+                    cardSubTitle: 'custom-chrono-events-card-subtitle',
+                    cardText: 'custom-chrono-events-card-text',
+                    cardTitle: 'custom-chrono-events-card-title',
+                    controls: 'custom-chrono-events-controls',
+                    title: 'custom-chrono-events-title',
                 }}
             // enableDarkToggle
             >
                 <div className="chrono-icons">
                     <img
                         className=""
-                        src="https://img.icons8.com/ios-filled/100/000000/twitter.png"
+                        src={logo}
                         alt="twitter"
                     />
                     <img

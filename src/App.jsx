@@ -2,13 +2,14 @@ import logo from "./assets/images/logo.svg"
 import heroImg2 from "./assets/images/hero-img-build.svg"
 import feature1Img from "./assets/images/feature-1.png"
 import feature2Img from "./assets/images/feature-2.png"
+import subGraphMetupImg from "./assets/images/subgraph_meetup.jpg"
 import { EventsTimeline } from "Components"
 function App() {
 
   return (
     <>
-      <header className="fixed w-full px-8 z-[99999]">
-        <nav className="bg-white border-gray-200 py-2.5 dark:bg-gray-900">
+      <header className="fixed w-full z-[99999]">
+        <nav className="bg-white border-gray-200 py-2.5 dark:bg-gray-900 px-8">
           <div className="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
             <a href="#" className="flex items-center">
               <img src={logo} className="h-6 mr-3 sm:h-9" alt="Web3 Warri Logo" />
@@ -38,13 +39,13 @@ function App() {
                   <a href="#" className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Events</a>
                 </li>
                 <li>
-                  <a href="#" className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Support Us</a>
+                  <a href="https://medium.com/web3-warri" className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Blog</a>
                 </li>
                 <li>
                   <a href="#" className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Team</a>
                 </li>
                 <li>
-                  <a href="#" className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+                  <a href="#" className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Support Us</a>
                 </li>
               </ul>
             </div>
@@ -138,7 +139,7 @@ function App() {
         </section>
         <section className="container mx-auto px-8 bg-white dark:bg-gray-900">
           <div className="max-w-screen-xl px-4 pb-8 mx-auto lg:pb-16">
-            <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white text-center mb-5">Our Partners</h2>
+            <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white text-center mb-5">Events Timeline</h2>
             <EventsTimeline />
           </div>
         </section>
@@ -217,6 +218,27 @@ function App() {
         <section className="container mx-auto px-8 bg-white dark:bg-gray-900">
           <div className="items-center max-w-screen-xl px-4 py-8 mx-auto lg:grid lg:grid-cols-4 lg:gap-16 xl:gap-24 lg:py-24 lg:px-6">
             <div className="col-span-2 mb-8">
+              <p className="text-lg font-medium text-purple-600 dark:text-purple-500">Our Vision</p>
+              <h2 className="mt-3 mb-4 text-3xl font-extrabold tracking-tight text-gray-900 md:text-3xl dark:text-white">We are passionate, excited, and driven by the vision and the core philosophies of Web 3.0</h2>
+              <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400">Our goal is to build the next generation of the Internet - web3, by onboarding at least 100 blockchain and smart contract developers by Q1 2024 through workshops, meetups, hackathons, and conferences.</p>
+              <div className="pt-6 mt-6 space-y-4 border-t border-gray-200 dark:border-gray-700">
+                <div>
+                  <a href="#" className="inline-flex items-center text-base font-medium text-purple-600 hover:text-purple-800 dark:text-purple-500 dark:hover:text-purple-700">
+                    Join us in making this possible
+                    <svg className="w-5 h-5 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="col-span-2 space-y-8 md:space-y-0">
+              <img className="w-full rounded-xl" src={subGraphMetupImg} alt="Building With Subgraph Studio Meetup" />
+            </div>
+          </div>
+        </section>
+
+        {/* <section className="container mx-auto px-8 bg-white dark:bg-gray-900">
+          <div className="items-center max-w-screen-xl px-4 py-8 mx-auto lg:grid lg:grid-cols-4 lg:gap-16 xl:gap-24 lg:py-24 lg:px-6">
+            <div className="col-span-2 mb-8">
               <p className="text-lg font-medium text-purple-600 dark:text-purple-500">Trusted Worldwide</p>
               <h2 className="mt-3 mb-4 text-3xl font-extrabold tracking-tight text-gray-900 md:text-3xl dark:text-white">Trusted by over 600 million users and 10,000 teams</h2>
               <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400">Our rigorous security and compliance standards are at the heart of all we do. We work tirelessly to protect you and your customers.</p>
@@ -258,7 +280,7 @@ function App() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
 
         <section className="container mx-auto px-8 bg-gray-50 dark:bg-gray-800">

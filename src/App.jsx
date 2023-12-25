@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <header className="fixed w-full z-[99999]">
-        <nav className="bg-white border-gray-200 py-2.5 dark:bg-gray-900 px-8">
+        <nav className="bg-white border-gray-200 py-2.5 dark:bg-gray-900 px-2 md:px-8">
           <div className="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
             <a href="#" className="flex items-center">
               <img src={logo} className="h-6 mr-3 sm:h-9" alt="Web3 Warri Logo" />
@@ -22,8 +22,8 @@ function App() {
               {/* <div className="hidden mt-2 mr-4 sm:inline-block">
                 <a className="github-button" href="https://github.com/themesberg/Web3 Warri" data-size="large" data-icon="octicon-star" data-show-count="true" aria-label="Star themesberg/Web3 Warri on GitHub">Star</a>
               </div> */}
-              <a href="#" className="text-gray-800 dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800">Contact Us</a>
-              <a href="" className="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800">Join Us</a>
+              <a href="#" className="hidden lg:flex items-center text-gray-800 dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800">Contact Us</a>
+              <a href="" className="hidden lg:flex items-center text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800">Join Us</a>
               <button data-collapse-toggle="mobile-menu-2" type="button" className="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mobile-menu-2" aria-expanded="false">
                 <span className="sr-only">Open main menu</span>
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd"></path></svg>
@@ -56,10 +56,10 @@ function App() {
         </nav>
       </header>
       <main className="container mx-auto bg-white dark:bg-gray-900">
-        <section className="container mx-auto px-8 bg-white dark:bg-gray-900 min-h-screen">
+        <section className="container mx-auto px-2 md:px-8 bg-white dark:bg-gray-900 min-h-screen">
           <div className="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
-            <div className="mr-auto place-self-center lg:col-span-7">
-              <h1 className="max-w-2xl mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white">Empowering Builders of the Decentralized Future.</h1>
+            <div className="text-center lg:text-left mr-auto place-self-center lg:col-span-7">
+              <h1 className="max-w-2xl mb-4 text-5xl font-extrabold leading-[1.3] tracking-tight md:text-5xl xl:text-6xl dark:text-white">Empowering Builders of the Decentralized Future.</h1>
               <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">Join a vibrant community of blockchain developers, smart contract enthusiasts, and tech visionaries. Embrace decentralization, foster collaboration, and contribute to the next era of the internet.</p>
               <div className="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
                 {/* <a href="https://github.com/themesberg/Web3 Warri" className="inline-flex items-center justify-center w-full px-5 py-3 text-sm font-medium text-center text-gray-900 border border-gray-200 rounded-lg sm:w-auto hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
@@ -71,28 +71,15 @@ function App() {
                 </a>
               </div>
             </div>
-            <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
+            <div className="mt-4 lg:mt-0 lg:col-span-5 flex">
               <img src={heroImg2} alt="hero image" />
             </div>
           </div>
         </section>
 
-        <section className="container mx-auto px-8 bg-gray-50 dark:bg-gray-800">
-          <div className="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
-            {/* Row */}
-            <img className="hidden max-h-[550px] w-full mb-4 rounded-lg lg:mb-0 lg:flex" src={web3WarriTeam} alt="feature image 2" />
-            <div className="text-center text-gray-500 sm:text-lg dark:text-gray-400">
-              <h2 className="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">About Us</h2>
-              <p className="mb-8 font-light lg:text-xl">The web3 Warri community - which began officially in February 2023 - is a community of (and for) blockchain developers, smart contract developers, builders, technical writers, open-source contributors, and tech enthusiasts interested in building the next generation of the internet through collaborative learning, meetups, workshops, hackathons, and conferences.
-                Our community is committed to fostering the development and adoption of blockchain technology.
-              </p>
-              {/* <p className="font-light lg:text-xl"></p> */}
-            </div>
-          </div>
-        </section>
 
 
-        <section className="container mx-auto px-8 py-12 mt-5 bg-white dark:bg-gray-900">
+        <section className="container mx-auto px-2 md:px-8 py-12 mt-5 bg-white dark:bg-gray-900">
           <div className="max-w-screen-xl px-4 pb-8 mx-auto lg:pb-16">
             <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white text-center mb-5">Our Partners</h2>
             <div className="grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 sm:grid-cols-3 lg:grid-cols-6 dark:text-gray-400">
@@ -154,15 +141,28 @@ function App() {
             </div>
           </div>
         </section>
-        <section className="container mx-auto px-8 bg-white dark:bg-gray-900">
+        <section className="container mx-auto px-2 md:px-8 bg-white dark:bg-gray-900">
           <div className="max-w-screen-xl px-4 pb-8 mx-auto lg:pb-16">
             <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white text-center mb-5">Events Timeline</h2>
             <EventsTimeline />
           </div>
         </section>
 
+        <section className="container mx-auto px-2 md:px-8 bg-gray-50 dark:bg-gray-800">
+          <div className="flex lg:flex-col flex-col-reverse max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
+            {/* Row */}
+            <img className="flex max-h-[550px] w-full mb-4 rounded-lg lg:mb-0" src={web3WarriTeam} alt="feature image 2" />
+            <div className="text-center text-gray-500 sm:text-lg dark:text-gray-400">
+              <h2 className="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">About Us</h2>
+              <p className="mb-8 font-light lg:text-xl">The web3 Warri community - which began officially in February 2023 - is a community of (and for) blockchain developers, smart contract developers, builders, technical writers, open-source contributors, and tech enthusiasts interested in building the next generation of the internet through collaborative learning, meetups, workshops, hackathons, and conferences.
+                Our community is committed to fostering the development and adoption of blockchain technology.
+              </p>
+              {/* <p className="font-light lg:text-xl"></p> */}
+            </div>
+          </div>
+        </section>
 
-        <section className="container mx-auto px-8 bg-gray-50 dark:bg-gray-800">
+        <section className="container mx-auto px-2 md:px-8 bg-gray-50 dark:bg-gray-800">
           <div className="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
             {/* Row */}
             <div className="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
@@ -200,8 +200,8 @@ function App() {
         </section>
 
 
-        <section className="container mx-auto px-8 bg-white dark:bg-gray-900">
-          <div className="items-center max-w-screen-xl px-4 py-8 mx-auto lg:grid lg:grid-cols-4 lg:gap-16 xl:gap-24 lg:py-24 lg:px-6">
+        <section className="container mx-auto px-2 md:px-8 bg-white dark:bg-gray-900">
+          <div className="items-center text-center lg:text-left max-w-screen-xl px-4 py-8 mx-auto lg:grid lg:grid-cols-4 lg:gap-16 xl:gap-24 lg:py-24 lg:px-6">
             <div className="col-span-2 mb-8">
               <p className="text-lg font-medium text-purple-600 dark:text-purple-500">Our Vision</p>
               <h2 className="mt-3 mb-4 text-3xl font-extrabold tracking-tight text-gray-900 md:text-3xl dark:text-white">We are passionate, excited, and driven by the vision and the core philosophies of Web 3.0</h2>
@@ -221,7 +221,7 @@ function App() {
           </div>
         </section>
 
-        <section className="container mx-auto px-8 bg-gray-50 dark:bg-gray-800">
+        <section className="container mx-auto px-2 md:px-8 bg-gray-50 dark:bg-gray-800">
           <div className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-24 lg:px-6">
             <figure className="max-w-screen-md mx-auto">
               <svg className="h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600" viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -241,7 +241,7 @@ function App() {
           </div>
         </section>
 
-        <section className="container mx-auto px-8 py-6 bg-white dark:bg-gray-900">
+        <section className="container mx-auto px-2 md:px-8 py-6 bg-white dark:bg-gray-900">
           <div className="flex items-center justify-center">
             <div className="flex flex-col">
 
@@ -277,9 +277,9 @@ function App() {
                         {/* Details */}
                         <div className="text-center mt-6">
                           {/* Name */}
-                          <h1 className="font-bold text-gray-500 sm:text-lg dark:text-white">
+                          <p className="font-bold text-gray-500 sm:text-lg dark:text-white">
                             Charles Freeborn
-                          </h1>
+                          </p>
 
                           {/* Title */}
                           <div className="font-light text-gray-500 text-sm dark:text-gray-400">
@@ -320,9 +320,9 @@ function App() {
                         {/* Details */}
                         <div className="text-center mt-6">
                           {/* Name */}
-                          <h1 className="font-bold text-gray-500 sm:text-lg dark:text-white">
+                          <p className="font-bold text-gray-500 sm:text-lg dark:text-white">
                             Martha Freeborn
-                          </h1>
+                          </p>
 
                           {/* Title */}
                           <div className="font-light text-gray-500 text-sm dark:text-gray-400">
@@ -363,9 +363,9 @@ function App() {
                         {/* Details */}
                         <div className="text-center mt-6">
                           {/* Name */}
-                          <h1 className="font-bold text-gray-500 sm:text-lg dark:text-white">
+                          <p className="font-bold text-gray-500 sm:text-lg dark:text-white">
                             Favour Okoh
-                          </h1>
+                          </p>
 
                           {/* Title */}
                           <div className="font-light text-gray-500 text-sm dark:text-gray-400">
@@ -400,7 +400,7 @@ function App() {
           </div>
         </section>
 
-        {/* <section className="container mx-auto px-8 bg-white dark:bg-gray-900">
+        {/* <section className="container mx-auto px-2 md:px-8 bg-white dark:bg-gray-900">
           <div className="max-w-screen-xl px-4 pb-8 mx-auto lg:pb-24 lg:px-6 ">
             <h2 className="mb-6 text-3xl font-extrabold tracking-tight text-center text-gray-900 lg:mb-8 lg:text-3xl dark:text-white">Frequently asked questions</h2>
             <div className="max-w-screen-md mx-auto">
@@ -468,7 +468,7 @@ function App() {
           </div>
         </section> */}
 
-        <section className="container mx-auto px-8 bg-gray-50 dark:bg-gray-800">
+        <section className="container mx-auto px-2 md:px-8 bg-gray-50 dark:bg-gray-800">
           <div className="max-w-screen-xl px-4 py-8 mx-auto lg:py-16 lg:px-6">
             <div className="max-w-screen-sm mx-auto text-center">
               <h2 className="mb-4 text-3xl font-extrabold leading-tight tracking-tight text-gray-900 dark:text-white">Get To Know Us</h2>
@@ -479,7 +479,7 @@ function App() {
         </section>
       </main>
       <footer className="bg-white dark:bg-gray-800">
-        <div className="max-w-screen-xl p-4 py-6 mx-auto lg:py-16 md:p-8 lg:p-10">
+        <div className="max-w-screen-xl p-4 py-3 mx-auto lg:py-16 md:p-8 lg:p-10">
           <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
           <div className="text-center">
             <a href="#" className="flex items-center justify-center mb-5 text-2xl font-semibold text-gray-900 dark:text-white">
